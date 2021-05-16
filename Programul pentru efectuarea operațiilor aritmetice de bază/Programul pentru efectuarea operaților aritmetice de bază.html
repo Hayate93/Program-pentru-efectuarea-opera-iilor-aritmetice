@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Program pentru efectuarea operațiilor aritmetice de bază</title>
+</head>
+<body>
+    <script>
+        const opMap = {
+            "+": function(x, y) { return x + y },
+            "-": function(x, y) { return x - y },
+            "*": function(x, y) { return x * y },
+            "/": function(x, y) { return x / y },
+        };
+
+        const x = parseInt(prompt("Introduceti primul numar"));
+        const op = prompt("Introduceti operatorul");
+        const y = parseInt(prompt("Introduceti ultimul numar"));
+
+        const result = opMap[op](x, y);
+
+        alert(result);
+    </script>
+</body>
+</html>
