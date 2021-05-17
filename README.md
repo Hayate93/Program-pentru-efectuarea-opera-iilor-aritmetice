@@ -1,1 +1,1 @@
-# Program-pentru-efectuarea-opera-iilor-aritmetice
+# Program-pentru-efectuarea-operatiilor-aritmetice
